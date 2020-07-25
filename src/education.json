@@ -1,0 +1,39 @@
+[{
+        "id": 1,
+        "img": "./staticAssets/siit.jpg",
+        "university": "The Informal School of IT",
+        "period": "Feb 2020 – Aug 2020",
+        "title": "Front End Developer",
+        "location": "Cluj County, Romania",
+        "description": "Plan and perform failure analysis of electronic control units (ECUs) after design validation (DV) testing;Make physical assessment of ECUs regarding ageing and damaging of all relevant components, their assembly and interconnect technologies;Judge ageing indicators with respect to lifetime requirements based on material science knowledge;Improve and adapt methods of analysis as required by new products/technologies;Devise and initiate experiments for the investigation of failure, ageing mechanisms and their indicators;"
+
+    },
+    {
+        "id": 2,
+        "img": "./staticAssets/utcn.png",
+        "university": "Technical University of Cluj-Napoca, Faculty of Constuctions",
+        "period": "2010-2012",
+        "title": "Master’s Degree",
+        "location": "Cluj County, Romania",
+        "description": "infrastructure engineering"
+    },
+    {
+        "id": 3,
+        "img": "./staticAssets/utcn.png",
+        "university": "Technical University of Cluj-Napoca, Faculty of Constructions",
+        "period": "2006-2010",
+        "title": "Bachelor’s Degree",
+        "location": "Cluj County, Romania",
+        "description": "Civil Engineering"
+    },
+    {
+        "id": 4,
+        "img": "./staticAssets/dragosvoda.png",
+        "university": "National College 'Dragos Voda'",
+        "period": "2002-2006",
+        "title": "High School",
+        "location": "Sighetu-Marmatiei County, Romania",
+        "description": "Mathematics-Computer Science"
+    }
+
+]
