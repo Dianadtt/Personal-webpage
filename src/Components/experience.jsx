@@ -12,12 +12,11 @@ class Experience extends Component {
                     return (
                         <div key={job.id} className="card">
                             <h5>{job.title}</h5>
-                            <div className="company-container">
+                            <div >
                                 <img id="job-logo" src={job.img} alt="job logo"></img>
+                                </div>
+                                <div className="company-details">
                                 <p>{job.company}</p>
-                            </div>
-
-                            <div className="company-details">
                                 <p>{job.period}</p>
                                 <p>{job.location}</p>
                             </div>

@@ -28,7 +28,7 @@ class Project extends Component {
                             <div  key={project.id}>
                             <div className="card">
                                 <h5>{project.title}</h5>
-                                <p>{project.description}</p>
+                                <p id= "text">{project.description}</p>
 
                                 <img id="project-image" src={project.img} alt="project"></img>
                                 <div className="links">

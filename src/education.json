@@ -5,8 +5,7 @@
         "period": "Feb 2020 – Aug 2020",
         "title": "Front End Developer",
         "location": "Cluj County, Romania",
-        "description": "Plan and perform failure analysis of electronic control units (ECUs) after design validation (DV) testing;Make physical assessment of ECUs regarding ageing and damaging of all relevant components, their assembly and interconnect technologies;Judge ageing indicators with respect to lifetime requirements based on material science knowledge;Improve and adapt methods of analysis as required by new products/technologies;Devise and initiate experiments for the investigation of failure, ageing mechanisms and their indicators;"
-
+        "description": "During this six months of classes I learned how to build a User Interface web application unsing HTML5 and CSS. After diving into JvaScript I coverd some concepts like: variables, functions, objects and interconnect them with the browser with the DOM. Server based request (CRUD) using HTTP protocols (AJAX, fetch API and promises). I started to use the OOP model based programming and ES6 syntax. Learned the principles and basic commands in GIT and at the end basics of React.js conceps like: components (functional and class based components), props and state, react router and other lybraries."
     },
     {
         "id": 2,
@@ -15,7 +14,7 @@
         "period": "2010-2012",
         "title": "Master’s Degree",
         "location": "Cluj County, Romania",
-        "description": "infrastructure engineering"
+        "description": "Advanced engineering fundamentals on: environmental mechanics continues in the field of elastic and plastic behavior. Vehicle - roadway interaction and systems of administration of a road transport network;"
     },
     {
         "id": 3,
@@ -24,7 +23,7 @@
         "period": "2006-2010",
         "title": "Bachelor’s Degree",
         "location": "Cluj County, Romania",
-        "description": "Civil Engineering"
+        "description": "Specialized in the complex design of buildings from an engineering point of view, the composition and calculation of the resistance structures used and the most modern calculation methods (Robot Structural Analysis, MathCad, AutoCad), the evaluation of acoustic and thermal comfort in buildings, the execution of buildings and the management of construction works."
     },
     {
         "id": 4,

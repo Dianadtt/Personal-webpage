@@ -18,17 +18,18 @@ class Education extends Component {
                             <div key={school.id} className="card">
                                 <div className="school-container">
                                     <img id="school-logo" src={school.img} alt="school"></img>
-                                    <h5>{school.university}</h5>
+                                   
 
                                 </div>
                                 <div className="education-detail">
+                                <h5>{school.university}</h5>
                                     <p>{school.period}</p>
                                     <p>{school.location}</p>
                                     <p>{school.title}</p>
 
                                 </div>
 
-                                <p>{school.description}</p>
+                                <p id="text">{school.description}</p>
 
 
                             </div>
@@ -47,7 +48,10 @@ class Education extends Component {
                         <li><span>May 2019</span>Comunication training</li><hr></hr>
                         <li><span>March 2013</span>Procurement specialist</li><hr></hr>
                         <li><span>Oct 2012</span>Driving license</li><hr></hr>
-                        <li><span>June 2002</span>Computer science ceritificate</li>
+                        <li><span>June 2012</span>Masters degree in Infrastructure Engineering</li><hr></hr>
+                        <li><span>June 2010</span>Licence in Civil Engineering</li><hr></hr>
+                        <li><span>June 2006</span>Computer science ceritificate</li><hr></hr>
+                        <li><span>June 2006</span>Bachelor degree</li>
                     </ul>
 
                 </div>

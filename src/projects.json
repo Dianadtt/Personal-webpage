@@ -59,7 +59,7 @@
     {
         "id": 8,
         "title": "My Imdb page",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": "My IMDB is a team project created at the end of the web development classes at Scoala Informala de IT. It was created using JS and Bootstrap technologies. Overall the application displays some movies coming form a database, it gives the user the opportunity to Register/ Login, add, delete or update a movie.",
         "linkForCode": "https://github.com/Dianadtt/GameApp-with-React.git",
         "linkForProject": "https://crinel.github.io/myIMDB-13.1/pages/home.html",
         "img": "../staticAssets/myimdb.png"
