@@ -8,15 +8,16 @@ import Education from "./education"
 
 import {Switch, Route} from "react-router-dom"
 // import Experience from './experience';
+const baseUrl = '/personal-webpage/';
 const Main=()=>(
     <Switch>
-        <Route exact path="/" component={LandingPage}/>
-        <Route exact path="/landingpage" component={LandingPage}/>
-        <Route exact path="/aboutMe" component={AboutMe}/>
-        <Route exact path="/projects" component={Project}/>
-        <Route exact path="/experience" component={Experience}/>
-        <Route exact path="/education" component={Education}/>
-        <Route exact path="/contact" component={Contact}/>
+        <Route exact path={`${baseUrl}/`} component={LandingPage}/>
+        <Route exact path={`${baseUrl}/landingpage`} component={LandingPage}/>
+        <Route exact path={`${baseUrl}/about-me`} component={AboutMe}/>
+        <Route exact path={`${baseUrl}/projects`} component={Project}/>
+        <Route exact path={`${baseUrl}/experience`} component={Experience}/>
+        <Route exact path={`${baseUrl}/education`} component={Education}/>
+        <Route exact path={`${baseUrl}/contact`} component={Contact}/>
        
     </Switch>
 
