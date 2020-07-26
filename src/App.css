@@ -6,6 +6,10 @@
         background: linear-gradient(to bottom, #DECBA4, #3E5151);
     }
     
+    #root>div>div>div>header>div>nav>a:hover {
+        font-weight: bold;
+    }
+    
     #root>div>div>div>header>div>nav>a {
         font-size: 20px;
         font-family: 'Mukta', sans-serif;
@@ -31,14 +35,16 @@
     
     .landing-page {
         display: flex;
+        flex-direction: column;
         align-items: center;
     }
     
     .avatar-img {
-        width: 20%;
-        display: flex;
-        align-items: center;
+        width: 30%;
+        /* display: flex;
+        align-items: center; */
         padding-top: 20px;
+        padding-bottom: 20px;
         border-radius: 100%;
         margin: 0 auto;
     }

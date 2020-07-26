@@ -33,7 +33,6 @@ function App() {
                     </Navigation>
                 </Drawer>
                 <Content>
-                    {/* <div className="page-content" /> */}
                     <Main />
                 </Content>
                 <Footer className="header-color" size="mini">
