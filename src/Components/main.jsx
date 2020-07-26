@@ -8,7 +8,7 @@ import Education from "./education"
 
 import {Switch, Route} from "react-router-dom"
 // import Experience from './experience';
-const baseUrl = '/personal-webpage/';
+const baseUrl = '/personal-webpage';
 const Main=()=>(
     <Switch>
         <Route exact path={`${baseUrl}/`} component={LandingPage}/>

@@ -13,22 +13,22 @@ function App() {
 
 
                     <Navigation>
-                        <Link to="/landingpage">Home</Link>
-                        <Link to="/aboutMe">About Me</Link>
-                        <Link to="/experience">Experience</Link>
-                        <Link to="/education">Education</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/personal-webpage/landingpage">Home</Link>
+                        <Link to="/personal-webpage/about-me">About Me</Link>
+                        <Link to="/personal-webpage/experience">Experience</Link>
+                        <Link to="/personal-webpage/education">Education</Link>
+                        <Link to="/personal-webpage/projects">Projects</Link>
+                        <Link to="/personal-webpage/contact">Contact</Link>
                     </Navigation>
                 </Header>
                 <Drawer title="Diana Toth">
                     <Navigation >
-                        <Link to="/landingpage">Home</Link>
-                        <Link to="/aboutMe">About Me</Link>
-                        <Link to="/experience">Experience</Link>
-                        <Link to="/education">Education</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/personal-webpage/landingpage">Home</Link>
+                        <Link to="/personal-webpage/about-me">About Me</Link>
+                        <Link to="/personal-webpage/experience">Experience</Link>
+                        <Link to="/personal-webpage/education">Education</Link>
+                        <Link to="/personal-webpage/projects">Projects</Link>
+                        <Link to="/personal-webpage/contact">Contact</Link>
 
                     </Navigation>
                 </Drawer>
