@@ -9,9 +9,11 @@ function App() {
     return (
         <div >
             <Layout  >
-                <Header className="header-color" title="Diana Toth" scroll>
-              
+                <Header className="header-color" title="Diana Toth" scroll >
+
+
                     <Navigation>
+                        <Link to="/landingpage">Home</Link>
                         <Link to="/aboutMe">About Me</Link>
                         <Link to="/experience">Experience</Link>
                         <Link to="/education">Education</Link>
@@ -19,13 +21,15 @@ function App() {
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer  title="Diana Toth">
+                <Drawer title="Diana Toth">
                     <Navigation >
+                        <Link to="/landingpage">Home</Link>
                         <Link to="/aboutMe">About Me</Link>
                         <Link to="/experience">Experience</Link>
                         <Link to="/education">Education</Link>
                         <Link to="/projects">Projects</Link>
                         <Link to="/contact">Contact</Link>
+
                     </Navigation>
                 </Drawer>
                 <Content>
