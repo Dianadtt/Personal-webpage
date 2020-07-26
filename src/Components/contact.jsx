@@ -14,7 +14,7 @@ class Contact extends Component {
                     <h2>Toth Diana</h2>
                     <img src={img} alt="diana toth" />
                     <button>
-                        <a href={cv} download>Click to Download!</a>
+                        <a href={cv} download>Click to Download</a>
                     </button>
 
                 </div>
@@ -29,19 +29,19 @@ class Contact extends Component {
                         <ListItem >
                             <ListItemContent>
                                 <i className="fa fa-phone-square"></i>
-                                   +40 745-951-222
+                                    0745 951 222
                                     </ListItemContent>
                         </ListItem>
                         <ListItem >
                             <ListItemContent >
                                 <i className="fa fa-envelope"></i>
-                                    dianatoth.dtt@gmail.com
+                                     dianatoth.dtt@gmail.com
                                     </ListItemContent>
                         </ListItem>
                         <ListItem>
                             <ListItemContent >
                                 <i className="fa fa-skype"></i>
-                                    live:.cid.de5ed57d39af7dd4
+                                     live:.cid.de5ed57d39af7dd4
                                     </ListItemContent>
                         </ListItem>
 

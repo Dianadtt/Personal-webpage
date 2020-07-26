@@ -22,9 +22,9 @@ class RandomQuote extends Component {
             .then(res => {
                 let data = res.data.quotes
                 console.log(data)
-                let quoteNum = Math.floor(Math.random() * data.length) //quote number
-                let randomQuote = data[quoteNum] //actual quote
-console.log(randomQuote)
+                let quoteNum = Math.floor(Math.random() * data.length) 
+                let randomQuote = data[quoteNum] 
+                console.log(randomQuote)
                 this.setState({
                     quote: randomQuote['quote'],
                     author: randomQuote['author']
@@ -39,16 +39,16 @@ console.log(randomQuote)
     render() {
         const { quote, author } = this.state
         return (
-        
-                <div >
-                   
-                    <div id='text'><p>"{quote}"</p>
-                    </div>
-                    <div id='author'><p>{author}</p>
-                    </div>
-                  
+
+            <div >
+
+                <div id='text'><p>"{quote}"</p>
                 </div>
-           
+                <div id='author'><p>{author}</p>
+                </div>
+
+            </div>
+
         )
     }
 }

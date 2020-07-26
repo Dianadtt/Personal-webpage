@@ -28,27 +28,6 @@
         height: 0.5px;
         font-family: 'Mukta', sans-serif;
     }
-    /* li {
-        color: white;
-        padding-right: 20%;
-        display: grid;
-    } */
-    /* .landing-grid {
-    background: #3E5151;
-    /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151); */
-    /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to bottom, #DECBA4, #3E5151); */
-    
-    */
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    widows: 100%;
-    height: 100%; */
-    /* } */
     
     .landing-page {
         display: flex;
@@ -88,7 +67,7 @@
         padding-bottom: 15px;
         margin-bottom: 5px;
         text-align: center;
-        font-weight: bold;
+        margin-top: 0px;
         font-size: 1em;
         font-family: 'Dancing Script', cursive;
         font-family: 'Mukta', sans-serif;
@@ -168,15 +147,6 @@
         margin: auto;
         display: grid;
     }
-    /* .contact-body {
-        margin: auto;
-        background-color: grey;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        padding-top: 2em;
-    } */
     
     #contact-body {
         padding: 10px;
@@ -225,22 +195,6 @@
     #contact-right>ul span {
         color: gray;
     }
-    /* .contact-list i {
-        padding-right: 5px;
-    }
-    
-    .contact-list {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .contact-list a {
-        padding: 50px 50px;
-        text-decoration: none;
-        color: black;
-    } */
     
     #root>div>div>div>header>div>span,
     #contact-left>h2,
@@ -301,17 +255,6 @@
         padding-left: 5px;
         padding-right: 5px;
     }
-    /* #job-logo {
-        width: 5%;
-        padding-bottom: 12px;
-        margin-right: 1px;
-    } */
-    /* .company-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-    } */
     
     .company-details,
     .education-detail {
@@ -357,11 +300,6 @@
         margin-right: 1px;
         float: left;
     }
-    /* .school-container {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-    } */
     
     .card img {
         width: 20%;
