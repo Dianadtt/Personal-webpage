@@ -8,22 +8,25 @@
     
     #root>div>div>div>header>div>nav>a {
         font-size: 20px;
+        font-family: 'Mukta', sans-serif;
     }
     /* body */
     
     #root>div>div>div>div.mdl-layout__content {
         width: 100%;
-        margin: 0px;
+        margin: auto;
         background-image: url(./assets/background.jpg);
-        font-size: 2rem;
+        font-size: 1.7rem;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
+        font-family: 'Mukta', sans-serif;
     }
     /* footer */
     
     #root>div>div>div>footer {
-        height: 1%;
+        height: 0.5px;
+        font-family: 'Mukta', sans-serif;
     }
     /* li {
         color: white;
@@ -64,7 +67,7 @@
     .banner-text {
         background-color: black;
         opacity: .5;
-        width: 60%;
+        width: 70%;
         margin: auto;
         border-radius: 10px;
     }
@@ -86,7 +89,10 @@
         margin-bottom: 5px;
         text-align: center;
         font-weight: bold;
-        font-size: 0.8em;
+        font-size: 1em;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
     }
     
     .card h5 {
@@ -96,6 +102,7 @@
         text-align: center;
         font-weight: bold;
         font-size: 0.8em;
+        font-family: 'Mukta', sans-serif;
     }
     
     .card p {
@@ -152,7 +159,7 @@
         margin: auto;
         display: grid;
         min-width: 200px;
-        width: 60%;
+        width: 70%;
         border-radius: 1.5%;
     }
     
@@ -203,13 +210,20 @@
         /* margin-top: 10px; */
         margin: 15px auto;
         width: 30%;
-        /* border-radius: 4px; */
+        border: 0.2px solid gray;
+        border-radius: 4px;
         box-shadow: 5px 5px 5px grey;
     }
     
     #contact-left a {
         text-decoration: none;
-        color: black;
+        color: grey;
+        font-size: 1.2em;
+        font-family: 'Mukta', sans-serif;
+    }
+    
+    #contact-right>ul span {
+        color: gray;
     }
     /* .contact-list i {
         padding-right: 5px;
@@ -227,6 +241,16 @@
         text-decoration: none;
         color: black;
     } */
+    
+    #root>div>div>div>header>div>span,
+    #contact-left>h2,
+    #contact-right>h2,
+    #contact-left>button>a,
+    #root>div>div>div>footer>div>div {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+    }
     
     .links {
         display: flex;
@@ -248,7 +272,7 @@
         border: 0.1px solid lightgray;
         border-radius: 7px;
         text-align: center;
-        font-size: 0.4em;
+        font-size: 0.5em;
     }
     
     .links a:hover {
