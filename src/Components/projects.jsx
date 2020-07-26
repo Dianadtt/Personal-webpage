@@ -39,8 +39,8 @@ class Project extends Component {
                                     <h5>{project.title}</h5>
                                     <p id="text">{project.description}</p>
 
-                                    <img id="project-image" src={project.img} alt="project"></img>
-
+                                   
+                                    <img id="project-image" src={`${process.env.PUBLIC_URL}/staticAssets/${project.img}`} alt="project"></img>
                                     
                                     <div className="links">
                                         <a rel="noopener noreferrer" href={project.linkForCode} target="_blank">
