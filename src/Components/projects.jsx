@@ -5,27 +5,34 @@ class Project extends Component {
 
     state = {
         isActive: false,
+        data:[]
 
     }
     handleShow = () => {
         console.log("show")
+       
         this.setState({
             isActive: true,
+            data:data.id
+            
 
         })
     }
     handleHide = () => {
         console.log("hide")
         this.setState({
-            isActive: false
+            isActive: false,
+            data:data.id
+           
         })
+        console.log(data)
     }
 
     render() {
         return (
             <div className="container">
                 <div className="project">
-                    {data.map(project => {
+                    {data.map(project=> {
                         return (
                             <div key={project.id}>
                                 <div className="card">
@@ -33,6 +40,8 @@ class Project extends Component {
                                     <p id="text">{project.description}</p>
 
                                     <img id="project-image" src={project.img} alt="project"></img>
+
+                                    
                                     <div className="links">
                                         <a rel="noopener noreferrer" href={project.linkForCode} target="_blank">
                                             <i className="fa fa-github" aria-hidden="true"></i>
@@ -50,8 +59,8 @@ class Project extends Component {
                                    
 
                                 </div>
-                                <div className="card">
-                                    {this.state.isActive ? <div onMouseLeave={this.handleHide} > <p>{project.description}</p></div> : null}
+                                <div  className="card">
+                                    {this.state.isActive ? <div > <p >{project.description}</p></div> : null}
                                 </div>
                             </div>
 

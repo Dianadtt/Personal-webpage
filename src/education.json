@@ -1,6 +1,6 @@
 [{
         "id": 1,
-        "img": "./staticAssets/siit.jpg",
+        "img": "siit.jpg",
         "university": "The Informal School of IT",
         "period": "Feb 2020 – Aug 2020",
         "title": "Front End Developer",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "img": "./staticAssets/utcn.png",
+        "img": "utcn.png",
         "university": "Technical University of Cluj-Napoca, Faculty of Constuctions",
         "period": "2010-2012",
         "title": "Master’s Degree",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3,
-        "img": "./staticAssets/utcn.png",
+        "img": "/utcn.png",
         "university": "Technical University of Cluj-Napoca, Faculty of Constructions",
         "period": "2006-2010",
         "title": "Bachelor’s Degree",
@@ -27,7 +27,7 @@
     },
     {
         "id": 4,
-        "img": "./staticAssets/dragosvoda.png",
+        "img": "dragosvoda.png",
         "university": "National College 'Dragos Voda'",
         "period": "2002-2006",
         "title": "High School",

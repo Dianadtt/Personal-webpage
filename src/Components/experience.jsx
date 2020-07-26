@@ -13,7 +13,7 @@ class Experience extends Component {
                         <div key={job.id} className="card">
                             <h5>{job.title}</h5>
                             <div >
-                                <img id="job-logo" src={job.img} alt="job logo"></img>
+                            <img id="job-logo" src={`${process.env.PUBLIC_URL}/staticAssets/${job.img}`} alt="job"></img>
                                 </div>
                                 <div className="company-details">
                                 <p>{job.company}</p>
@@ -22,7 +22,7 @@ class Experience extends Component {
                             </div>
 
                             <p id="text">{job.description}</p>
-                            <img id="work-img" src={job.workImg} alt="work"></img>
+                            <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img>
 
 
 

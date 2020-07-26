@@ -17,7 +17,7 @@ class Education extends Component {
                         return (
                             <div key={school.id} className="card">
                                 <div className="school-container">
-                                    <img id="school-logo" src={school.img} alt="school"></img>
+                                <img id="school-logo" src={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`} alt="school"></img>
                                    
 
                                 </div>

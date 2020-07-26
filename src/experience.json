@@ -1,32 +1,32 @@
 [{
         "id": 1,
         "title": "Physical / Chemical Analysis Product Lead Engineer R&D",
-        "img": "./staticAssets/bosch.png",
+        "img": "bosch.png",
         "company": "Robert Bosch GmbH",
         "period": "Aug 2017 – Present",
         "location": "Cluj County, Romania",
         "description": "I currently work for Robert Bosch SRL in Cluj-Napoca as lead engineer for the quality and validation department. In this context, I am responsible for the analysis activities on breaking systems, smart wheels and blower control units. This involves defining and documenting the product specific analysis methods based on the validation plan. In a second phase, I organise and execute the activities amongst the analysis team such as resouces and time planning, and if the technical aspects are fully understud. I am planing and performing failure analysis of electronic control units (ECUs) after design validation (DV) testing. I am making physical assessment of ECUs regarding ageing and damaging of all relevant components, their assembly and interconnect technologies by judging ageing indicators with respect to lifetime requirements based on material science knowledge. I am also improving and adapting methods of analysis as required by new products/technologies such as the new smart wheel product. Since 2018 I am also responsible for reviewing the reports made by my collegues before the approval stage.",
-        "workImg": "./staticAssets/boschwork.jpg"
+        "workImg": "boschwork.jpg"
     },
     {
         "id": 2,
         "title": "Procurement Consultant",
-        "img": "./staticAssets/siab.png",
+        "img": "siab.png",
         "company": "SIAB DEVELOPMENT",
         "period": "Jun 2016 – Aug 2017",
         "location": "Cluj County, Romania",
         "description": "Responsible for tendering process: from planning, documenting up to participation.Perform project costs analysis.Perform legal compliance studies for each managed project.Reporting process; reporting results; documenting actions.Counseling mayors in public administration, with main focus on: budget, procurement, concession assets.Contrasting list prices, analyzing price offers.Analysis of tender documentation, identifying inconsistencies and formulating requests for clarification.Collaborating and assisting partners, subcontractors and third parties in order to prepare the documentation for participation at tender procedures.Request price offers and follow their correspondence with requirements imposed by the specifications, as applicable.",
-        "workImg": "./staticAssets/siabwork.jpg"
+        "workImg": "siabwork.jpg"
     },
     {
         "id": 3,
         "title": "Procurement specialist engineer",
-        "img": "./staticAssets/urbana.jpg",
+        "img": "urbana.jpg",
         "company": "Urban Public Services",
         "period": "Apr 2013 – Jun 2016",
         "location": "Sighetu Marmatiei, Maramures, Romania",
         "description": "QHSE verifier for all managed projects / public works.Responsible for tendering process: from planning, documenting up to participation;Main contact for contractors and subcontractors on each managed project;Prepare technical drawings;Reporting process; reporting results; documenting actions;Perform project costs analysis;Perform legal compliance studies for each managed project;Commissioning officer for various projects;Quality controller for all completed projects-including field measurements and calculations;",
-        "workImg": "./staticAssets/urbanawork.jpg"
+        "workImg": "urbanawork.jpg"
     }
 
 
