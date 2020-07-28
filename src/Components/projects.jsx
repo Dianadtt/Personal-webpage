@@ -5,15 +5,14 @@ class Project extends Component {
 
     state = {
         isActive: false,
-        data:[]
-
+       
     }
     handleShow = () => {
         console.log("show")
        
         this.setState({
             isActive: true,
-            data:data.id
+           
             
 
         })
@@ -22,7 +21,7 @@ class Project extends Component {
         console.log("hide")
         this.setState({
             isActive: false,
-            data:data.id
+            
            
         })
         console.log(data)
@@ -53,14 +52,14 @@ class Project extends Component {
                                 Demo
                                 </a>
                                         <i onMouseOver={this.handleShow} onMouseLeave={this.handleHide} id="arrow-down" className="fa fa-angle-down" aria-hidden="true"></i>
-
+                                       
 
                                     </div>
                                    
 
                                 </div>
                                 <div  className="card">
-                                    {this.state.isActive ? <div > <p >{project.description}</p></div> : null}
+                                    {this.state.isActive ? <div  > <p >{project.description}</p></div> : null}
                                 </div>
                             </div>
 

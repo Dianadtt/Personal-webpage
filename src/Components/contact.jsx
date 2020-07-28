@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import img from '../assets/avatar.jpg';
 import cv from '../assets/file.pdf'
 import { List, ListItem, ListItemContent } from 'react-mdl'
+import Form from './form'
 
 class Contact extends Component {
     render() {
         return (
+            <>
             <div className="card" id="contact-body">
                 {/* <Grid className="contact-grid">
                     <Cell coll={6}> */}
@@ -38,12 +40,7 @@ class Contact extends Component {
                                      dianatoth.dtt@gmail.com
                                     </ListItemContent>
                         </ListItem>
-                        <ListItem>
-                            <ListItemContent >
-                                <i className="fa fa-skype"></i>
-                                     live:.cid.de5ed57d39af7dd4
-                                    </ListItemContent>
-                        </ListItem>
+                      
 
 
                     </List>
@@ -52,7 +49,12 @@ class Contact extends Component {
 
                 {/* </Cell>
                 </Grid> */}
+               
             </div>
+            <div className="card">
+                 <Form></Form>
+            </div>
+            </>
         )
     }
 }

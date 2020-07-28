@@ -155,7 +155,6 @@
     }
     
     #contact-body {
-        padding: 10px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -167,7 +166,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        margin: auto;
     }
     
     #contact-left img {
@@ -185,7 +184,7 @@
     #contact-left button {
         /* margin-top: 10px; */
         margin: 15px auto;
-        width: 30%;
+        width: 150px;
         border: 0.2px solid gray;
         border-radius: 4px;
         box-shadow: 5px 5px 5px grey;
@@ -200,6 +199,8 @@
     
     #contact-right>ul span {
         color: gray;
+        width: 100%;
+        font-size: 0.9rem;
     }
     
     #root>div>div>div>header>div>span,
@@ -325,4 +326,50 @@
         margin: auto;
         display: grid;
         padding-bottom: 20px;
+    }
+    
+    #name,
+    #message,
+    #email {
+        padding: 0.7em;
+        color: grey;
+        width: 200px;
+    }
+    
+    label,
+    input {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 0.8em;
+        font-weight: bold;
+        margin: auto;
+    }
+    
+    .card h2 {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #form>input[type=submit]:nth-child(10) {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        color: gray;
+        margin: 15px auto;
+        width: 150px;
+        border: 0.2px solid gray;
+        border-radius: 4px;
+        box-shadow: 5px 5px 5px grey;
     }
