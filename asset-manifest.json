@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-webpage/static/css/main.f94e7392.chunk.css",
-    "main.js": "/personal-webpage/static/js/main.756c007e.chunk.js",
-    "main.js.map": "/personal-webpage/static/js/main.756c007e.chunk.js.map",
+    "main.js": "/personal-webpage/static/js/main.68a0b2f4.chunk.js",
+    "main.js.map": "/personal-webpage/static/js/main.68a0b2f4.chunk.js.map",
     "runtime-main.js": "/personal-webpage/static/js/runtime-main.79f8d34f.js",
     "runtime-main.js.map": "/personal-webpage/static/js/runtime-main.79f8d34f.js.map",
     "static/css/2.e4346227.chunk.css": "/personal-webpage/static/css/2.e4346227.chunk.css",
-    "static/js/2.ec82ab94.chunk.js": "/personal-webpage/static/js/2.ec82ab94.chunk.js",
-    "static/js/2.ec82ab94.chunk.js.map": "/personal-webpage/static/js/2.ec82ab94.chunk.js.map",
+    "static/js/2.82ca23b2.chunk.js": "/personal-webpage/static/js/2.82ca23b2.chunk.js",
+    "static/js/2.82ca23b2.chunk.js.map": "/personal-webpage/static/js/2.82ca23b2.chunk.js.map",
     "index.html": "/personal-webpage/index.html",
-    "precache-manifest.a36ba2e4df9ce489a6a8c59d58881d0f.js": "/personal-webpage/precache-manifest.a36ba2e4df9ce489a6a8c59d58881d0f.js",
+    "precache-manifest.c77f8f3a1688848c1123f09dba35cf15.js": "/personal-webpage/precache-manifest.c77f8f3a1688848c1123f09dba35cf15.js",
     "service-worker.js": "/personal-webpage/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/personal-webpage/static/css/2.e4346227.chunk.css.map",
     "static/css/main.f94e7392.chunk.css.map": "/personal-webpage/static/css/main.f94e7392.chunk.css.map",
-    "static/js/2.ec82ab94.chunk.js.LICENSE.txt": "/personal-webpage/static/js/2.ec82ab94.chunk.js.LICENSE.txt",
+    "static/js/2.82ca23b2.chunk.js.LICENSE.txt": "/personal-webpage/static/js/2.82ca23b2.chunk.js.LICENSE.txt",
     "static/media/aboutme.jpg": "/personal-webpage/static/media/aboutme.e89c521a.jpg",
     "static/media/avatar.jpg": "/personal-webpage/static/media/avatar.ea8bb1c5.jpg",
     "static/media/App.css": "/personal-webpage/static/media/background.60a91004.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.79f8d34f.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.ec82ab94.chunk.js",
+    "static/js/2.82ca23b2.chunk.js",
     "static/css/main.f94e7392.chunk.css",
-    "static/js/main.756c007e.chunk.js"
+    "static/js/main.68a0b2f4.chunk.js"
   ]
 }
