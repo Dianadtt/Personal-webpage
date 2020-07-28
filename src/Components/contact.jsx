@@ -4,7 +4,7 @@ import img from '../assets/avatar.jpg';
 import cv from '../assets/file.pdf'
 import { List, ListItem, ListItemContent } from 'react-mdl'
 import Form from './form'
-import Card from "./card"
+
 class Contact extends Component {
     render() {
         return (
