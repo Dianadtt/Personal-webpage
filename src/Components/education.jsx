@@ -8,35 +8,34 @@ class Education extends Component {
     render() {
         return (
             <div className="container">
+
+                
                 <div className="education">
                     <div id="header-education" className="card">
                         <img src={education} alt="education" />
                         <h4>Education</h4>
                     </div>
-                    {data.map(school => {
+
+                    
+                        {data.map(school => {
                         return (
                             <div key={school.id} className="card">
                                 <div className="school-container">
-                                <img id="school-logo" src={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`} alt="school"></img>
-                                   
-
+                                    <img id="school-logo" src={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`} alt="school"></img>
                                 </div>
                                 <div className="education-detail">
-                                <h5>{school.university}</h5>
+                                    <h5>{school.university}</h5>
                                     <p>{school.period}</p>
                                     <p>{school.location}</p>
                                     <p>{school.title}</p>
 
                                 </div>
-
                                 <p id="text">{school.description}</p>
-
-
                             </div>
                         )
                     })}
-
                 </div>
+
 
                 <div id="header-education" className="card">
                     <img src={certificate} alt="certificate" />
@@ -53,8 +52,9 @@ class Education extends Component {
                         <li><span>June 2006</span>Computer science ceritificate</li><hr></hr>
                         <li><span>June 2006</span>Bachelor degree</li>
                     </ul>
-
                 </div>
+
+
                 <div id="header-education" className="card">
                     <img src={language} alt="language" />
                     <h4>Languages</h4>
@@ -65,8 +65,8 @@ class Education extends Component {
                         <li>Hungarian</li>
                         <li>English</li>
                     </ul>
-
                 </div>
+
 
             </div>
         )
