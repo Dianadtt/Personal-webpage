@@ -29,7 +29,7 @@
     /* footer */
     
     #root>div>div>div>footer {
-        height: 0.5px;
+        height: 1px;
         font-family: 'Mukta', sans-serif;
     }
     
@@ -66,6 +66,12 @@
         border-radius: 10px;
         box-shadow: 10px 10px 10px grey;
         z-index: 1;
+        transition: width 2s, height 2s;
+        transition-delay: 0.3s;
+    }
+    
+    .card:hover {
+        width: 72%;
     }
     
     .card h4 {
