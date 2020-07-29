@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-webpage/static/css/main.4dc551fe.chunk.css",
-    "main.js": "/personal-webpage/static/js/main.e13cfe40.chunk.js",
-    "main.js.map": "/personal-webpage/static/js/main.e13cfe40.chunk.js.map",
+    "main.css": "/personal-webpage/static/css/main.a83c2b73.chunk.css",
+    "main.js": "/personal-webpage/static/js/main.98db3adf.chunk.js",
+    "main.js.map": "/personal-webpage/static/js/main.98db3adf.chunk.js.map",
     "runtime-main.js": "/personal-webpage/static/js/runtime-main.79f8d34f.js",
     "runtime-main.js.map": "/personal-webpage/static/js/runtime-main.79f8d34f.js.map",
     "static/css/2.e4346227.chunk.css": "/personal-webpage/static/css/2.e4346227.chunk.css",
-    "static/js/2.82ca23b2.chunk.js": "/personal-webpage/static/js/2.82ca23b2.chunk.js",
-    "static/js/2.82ca23b2.chunk.js.map": "/personal-webpage/static/js/2.82ca23b2.chunk.js.map",
+    "static/js/2.a39bfc0b.chunk.js": "/personal-webpage/static/js/2.a39bfc0b.chunk.js",
+    "static/js/2.a39bfc0b.chunk.js.map": "/personal-webpage/static/js/2.a39bfc0b.chunk.js.map",
     "index.html": "/personal-webpage/index.html",
-    "precache-manifest.4aa887d8ddc624714310aeb0ce3049b7.js": "/personal-webpage/precache-manifest.4aa887d8ddc624714310aeb0ce3049b7.js",
+    "precache-manifest.8b59e24d4be39b1bab88e5eed23c41c4.js": "/personal-webpage/precache-manifest.8b59e24d4be39b1bab88e5eed23c41c4.js",
     "service-worker.js": "/personal-webpage/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/personal-webpage/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.4dc551fe.chunk.css.map": "/personal-webpage/static/css/main.4dc551fe.chunk.css.map",
-    "static/js/2.82ca23b2.chunk.js.LICENSE.txt": "/personal-webpage/static/js/2.82ca23b2.chunk.js.LICENSE.txt",
+    "static/css/main.a83c2b73.chunk.css.map": "/personal-webpage/static/css/main.a83c2b73.chunk.css.map",
+    "static/js/2.a39bfc0b.chunk.js.LICENSE.txt": "/personal-webpage/static/js/2.a39bfc0b.chunk.js.LICENSE.txt",
     "static/media/aboutme.jpg": "/personal-webpage/static/media/aboutme.e89c521a.jpg",
     "static/media/avatar.jpg": "/personal-webpage/static/media/avatar.ea8bb1c5.jpg",
-    "static/media/App.css": "/personal-webpage/static/media/background.60a91004.jpg",
     "static/media/education.jpg": "/personal-webpage/static/media/education.f0f22b29.jpg",
     "static/media/file.pdf": "/personal-webpage/static/media/file.65adfd96.pdf",
     "static/media/language.jpg": "/personal-webpage/static/media/language.18205123.jpg",
@@ -25,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.79f8d34f.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.82ca23b2.chunk.js",
-    "static/css/main.4dc551fe.chunk.css",
-    "static/js/main.e13cfe40.chunk.js"
+    "static/js/2.a39bfc0b.chunk.js",
+    "static/css/main.a83c2b73.chunk.css",
+    "static/js/main.98db3adf.chunk.js"
   ]
 }
