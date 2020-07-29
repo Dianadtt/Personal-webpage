@@ -3,14 +3,18 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, FooterLinkList, Footer, FooterSection } from 'react-mdl'
 import Main from "./Components/main"
 import { Link } from 'react-router-dom'
+// import { Link } from "react-scroll";
 
-//className="demo-big-content"
+
+
 function App() {
+
+    
     return (
         <div >
             <Layout  >
                 <Header className="header-color" title="Diana Toth" scroll >
-
+               
 
                     <Navigation>
                         <Link to="/personal-webpage/landingpage">Home</Link>
@@ -33,7 +37,9 @@ function App() {
                     </Navigation>
                 </Drawer>
                 <Content>
+                
                     <Main />
+                  
                 </Content>
                 <Footer className="header-color" size="mini">
                     <FooterSection type="left" logo="@DianaToth">

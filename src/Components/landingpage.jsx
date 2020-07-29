@@ -32,7 +32,7 @@ class Landing extends Component {
 
                         </h1>
                         <hr />
-                        <p>HTML/CSS | JavaScript | React</p>
+                        <p>HTML | CSS | JavaScript | React</p>
                         <hr />
                         <div className="social-links">
                             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/diana-toth-825843111/" target="_blank">

@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import data from "../experience.json"
+
+import Card from './card';
+import CardHeader from './card-header';
+import CardContent from './card-content';
+import CardExtraContent from './card-extra-content';
 class Experience extends Component {
+    
     render() {
         return (
 
@@ -10,23 +16,24 @@ class Experience extends Component {
                 </div>
                 {data.map(job => {
                     return (
-                        <div key={job.id} className="card">
-                            <h5>{job.title}</h5>
-                            <div >
-                            <img id="job-logo" src={`${process.env.PUBLIC_URL}/staticAssets/${job.img}`} alt="job"></img>
-                                </div>
-                                <div className="company-details">
-                                <p>{job.company}</p>
-                                <p>{job.period}</p>
-                                <p>{job.location}</p>
-                            </div>
-
-                            <p id="text">{job.description}</p>
-                            <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img>
-
-
-
-                        </div>
+                        <Card 
+                        key={job.id} 
+                        zoomOnHover={true}>
+                                <CardHeader 
+                                    logo={`${process.env.PUBLIC_URL}/staticAssets/${job.img}`}
+                                    logoAlt="job"
+                                    title={job.company}
+                                    period={job.period}
+                                    location={job.location}
+                                />
+                                <CardContent text={job.description}/>
+                                <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img>
+                                
+                                <CardExtraContent>
+                                    <CardContent text={job.description}/>
+                                </CardExtraContent>
+                                
+                            </Card>
                     )
                 })}
 

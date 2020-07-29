@@ -4,7 +4,7 @@ import me from'../assets/me.jpg';
 class AboutMe extends Component {
     render() {
         return (
-            <div className="landing-box">
+            <div className="landing-box" id ="about-me">
             <img className="about-me" src={img} alt="Diana Toth" />
             <div className="banner-text">
                     

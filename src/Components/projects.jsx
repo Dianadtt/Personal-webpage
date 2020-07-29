@@ -3,29 +3,7 @@ import React, { Component } from 'react';
 import data from "../projects.json"
 class Project extends Component {
 
-    state = {
-        isActive: false,
-       
-    }
-    handleShow = () => {
-        console.log("show")
-       
-        this.setState({
-            isActive: true,
-           
-            
-
-        })
-    }
-    handleHide = () => {
-        console.log("hide")
-        this.setState({
-            isActive: false,
-            
-           
-        })
-        console.log(data)
-    }
+    
 
     render() {
         return (
@@ -51,16 +29,14 @@ class Project extends Component {
                                             <i className="fa fa-link" aria-hidden="true"></i>
                                 Demo
                                 </a>
-                                        <i onMouseOver={this.handleShow} onMouseLeave={this.handleHide} id="arrow-down" className="fa fa-angle-down" aria-hidden="true"></i>
+                                       
                                        
 
                                     </div>
                                    
 
                                 </div>
-                                <div  className="card">
-                                    {this.state.isActive ? <div  > <p >{project.description}</p></div> : null}
-                                </div>
+                              
                             </div>
 
 

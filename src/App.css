@@ -1,9 +1,9 @@
     /* nav bar */
     
     .header-color {
-        background: #3E5151;
-        background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);
-        background: linear-gradient(to bottom, #DECBA4, #3E5151);
+        background: rgb(146, 66, 66);
+        background: -webkit-linear-gradient(to bottom, #DECBA4, rgb(146, 66, 66));
+        background: linear-gradient(to bottom, #DECBA4, rgb(146, 66, 66));
     }
     
     #root>div>div>div>header>div>nav>a:hover {
@@ -19,8 +19,10 @@
     #root>div>div>div>div.mdl-layout__content {
         width: 100%;
         margin: auto;
-        background-image: url(./assets/background.jpg);
+        /* background-image: url(./assets/bg2.jpg); */
+        /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg"); */
         font-size: 1.7rem;
+        /* opacity: 0.5; */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -29,14 +31,15 @@
     /* footer */
     
     #root>div>div>div>footer {
-        height: 1px;
         font-family: 'Mukta', sans-serif;
+        height: 0.0001%;
+        border-top: 5px solid rgb(146, 66, 66);
+        margin-top: 10px;
     }
     
     .landing-page {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
     
     .avatar-img {
@@ -57,6 +60,22 @@
         border-radius: 10px;
     }
     
+    .zoom-card {
+        background-color: white;
+        color: black;
+        opacity: .8;
+        width: 70%;
+        margin: 15px auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px grey;
+        z-index: 1;
+        transition: width 0.5s, height 0.5s;
+    }
+    
+    .zoom-card:hover {
+        width: 72%;
+    }
+    
     .card {
         background-color: white;
         color: black;
@@ -66,12 +85,6 @@
         border-radius: 10px;
         box-shadow: 10px 10px 10px grey;
         z-index: 1;
-        transition: width 2s, height 2s;
-        transition-delay: 0.3s;
-    }
-    
-    .card:hover {
-        width: 72%;
     }
     
     .card h4 {
@@ -379,3 +392,29 @@
         border-radius: 4px;
         box-shadow: 5px 5px 5px grey;
     }
+    /* hgkhjlkjdl */
+    
+    body {
+        background: linear-gradient(90deg, rgb(109, 104, 104), rgb(146, 66, 66), rgb(109, 85, 85), rgb(131, 97, 97));
+        background-size: 400% 400%;
+        animation: gradient 8s ease infinite;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    /* .animation {
+        background-color: red;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+        opacity: 0.3;
+    } */
