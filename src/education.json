@@ -5,7 +5,7 @@
         "period": "Feb 2020 – Aug 2020",
         "title": "Front End Developer",
         "location": "Cluj County, Romania",
-        "description": "During this six months of classes I learned how to build a User Interface web application unsing HTML5 and CSS. After diving into JvaScript I coverd some concepts like: variables, functions, objects and interconnect them with the browser with the DOM. Server based request (CRUD) using HTTP protocols (AJAX, fetch API and promises). I started to use the OOP model based programming and ES6 syntax. Learned the principles and basic commands in GIT and at the end basics of React.js conceps like: components (functional and class based components), props and state, react router and other lybraries."
+        "description": "During these six months of classes I learned how to build a User Interface web application using HTML5 and CSS. After diving into JvaScript I covered some concepts like: variables, functions, objects and interconnect them with the browser with the DOM. Server based request (CRUD) using HTTP protocols (AJAX, fetch API and promises). I started using the OOP model based programming and ES6 syntax. Learned the principles and basic commands in GIT and at the end basics of React.js concepts like: components (functional and class based components), props and state, react router and other libraries."
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@
         "period": "2006-2010",
         "title": "Bachelor’s Degree",
         "location": "Cluj County, Romania",
-        "description": "Specialized in the complex design of buildings from an engineering point of view, the composition and calculation of the resistance structures used and the most modern calculation methods (Robot Structural Analysis, MathCad,), the evaluation of acoustic and thermal comfort in buildings, the execution of buildings and the management of construction works."
+        "description": "Specialized in the complex design of buildings from an engineering point of view, the composition and calculation of the resistance structures used and the most modern calculation methods (Robot Structural Analysis, MathCad), the evaluation of acoustic and thermal comfort in buildings, the execution of buildings and the management of construction works."
     },
     {
         "id": 4,
