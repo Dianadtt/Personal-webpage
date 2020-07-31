@@ -469,7 +469,6 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         margin: 15px;
         margin-left: 70px;
         color: white;
-        border: 1px solid white
     }
     
     .expand-arrow:hover {

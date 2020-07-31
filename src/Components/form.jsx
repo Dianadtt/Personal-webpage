@@ -12,7 +12,7 @@ class Form extends Component {
                 email: ""
             },
             submit: false,
-            showModal: true
+            
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -33,8 +33,7 @@ class Form extends Component {
         })
     }
     handleChange = (e) => {
-        console.log("name")
-        console.log(e.target.value)
+       
         this.setState({ [e.target.name]: e.target.value });
     };
     handleSubmit = (e) => {
@@ -65,12 +64,7 @@ class Form extends Component {
 
                     })
                 })
-            // this.setState({
-            //                 name: "",
-            //                 message: "",
-            //                 email: "",
-            //                 submit: true
-            //             })
+           
         } else {
             console.log("invalid")
             this.setState({
@@ -84,7 +78,7 @@ class Form extends Component {
         if (this.state.submit) {
             modal =
                 (<div className="modal-succes" onClick={this.closeSuccesModal}>
-                    Thank you for your email. I'll reply to as soon as possible !
+                    Thank you for your email. I'll reply to you as soon as possible !
                 </div>)
         } else if (this.state.errorMessage) {
             modal =
@@ -95,7 +89,7 @@ class Form extends Component {
         } else if (!this.state.valid) {
             modal =
                 (<div className="modal-error" onClick={this.closeValidationModal}>
-                    Your message was not send. Please fill out the form again !
+                    Your message was not sent. Please check your email adress again !
                 </div>)
         }
         return (

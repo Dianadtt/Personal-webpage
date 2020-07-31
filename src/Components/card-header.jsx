@@ -12,14 +12,14 @@ class CardHeader extends React.Component {
         return (
             <div className="header">
                 <div className="logo-container">
-                    <img className="card-header-logo" src={logo} alt={logoAlt}></img>
+                    {/* <img className="card-header-logo" src={logo} alt={logoAlt}></img> */}
                 </div>
                 <div className="card-header-detail">
                     <h5>{title}</h5>
                     <p>{period}</p>
                     <p>{location}</p>
                 </div>
-                {additional && (<p>{additional}</p>)}
+                {/* {additional && (<p>{additional}</p>)} */}
             </div>
         )
     }
