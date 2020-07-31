@@ -1,6 +1,10 @@
     body {
         margin: 0 auto;
-        padding: 0px
+        padding: 0px;
+    }
+    
+    body p {
+        font-size: 16px;
     }
     /* colors */
     /* CSS */
@@ -58,7 +62,7 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     
     .banner-text {
         background-color: rgba(15, 26, 32, 1);
-        box-shadow: 20px 10px 10px rgba(15, 26, 32, 1);
+        box-shadow: 20px 10px 10px black;
         opacity: 0.9;
         border-radius: 10px;
         position: relative;
@@ -102,6 +106,19 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         border-top: 10px solid rgba(226, 133, 110, 1);
         width: 100%;
     }
+    /* .card-header-detail p {
+        display: flex;
+        flex-direction: column;
+    } */
+    
+    #root>div>div>div>div.mdl-layout__content>div>div.education>div>div.header>p {
+        color: red;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        visibility: hidden;
+    }
     
     .banner-text p,
     .landing-box p {
@@ -111,6 +128,7 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         font-weight: bold;
         padding: 10px;
         font-family: 'Mukta', sans-serif;
+        margin: auto;
     }
     
     .social-links {
@@ -188,6 +206,11 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
             flex-direction: column;
             align-items: center;
             margin-bottom: 2%;
+        }
+        #skills {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
         }
     }
     /* contact page start */
@@ -279,6 +302,30 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         width: 10px;
     }
     
+    .header {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .card-header-detail h5,
+    p {
+        width: 100%;
+        color: rgba(173, 162, 150, 1);
+        font-size: 2rem;
+        font-family: 'Mukta', sans-serif;
+    }
+    
+    .logo-container img {
+        margin: 20px;
+        width: 40%;
+    }
+    
+    .logo-container {
+        width: 10%;
+    }
+    
     .zoom-card {
         background-color: rgba(15, 26, 32, 1);
         box-shadow: 20px 10px 10px rgba(15, 26, 32, 1);
@@ -317,54 +364,6 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     #message {
         height: 100px;
     }
-    
-    .card {
-        background-color: white;
-        color: ADACB5;
-        opacity: .8;
-        width: 70%;
-        margin: 15px auto;
-        border-radius: 10px;
-        box-shadow: 10px 10px 10px grey;
-        z-index: 1;
-    }
-    
-    .card h4 {
-        /* padding-top: 15px; */
-        padding-bottom: 15px;
-        margin-bottom: 5px;
-        text-align: center;
-        margin-top: 0px;
-        font-size: 1em;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Pacifico', cursive;
-    }
-    
-    .card h5 {
-        padding-top: 30px;
-        padding-bottom: 15px;
-        margin-bottom: 5px;
-        text-align: center;
-        font-weight: bold;
-        font-size: 0.8em;
-        font-family: 'Mukta', sans-serif;
-    }
-    
-    .card p {
-        padding: 5px;
-        /* text-align: center; */
-        margin: 0px 10px 0px 10px;
-        font-size: 0.7em;
-    }
-    /* #text {
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: justify;
-        padding-bottom: 15px;
-        color: hsla(31, 12%, 63%, 1)
-    } */
     /* about me section start */
     
     .landing-box {
@@ -402,58 +401,18 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     /* about-me section end */
     
     #text {
+        margin: auto;
         font-family: 'Mukta', sans-serif;
         font-size: 20px;
+        color: hsla(31, 12%, 63%, 1);
+        width: 90%;
+        text-align: justify;
+        /* margin-bottom: 10px; */
+        font-weight: bold;
+        padding: 10px;
     }
-    /* #contact-body {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 70%;
-    } */
-    /* #contact-left {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-    } */
-    /*     
-    #contact-left img {
-        width: 40%;
-        border-radius: 50%;
-    } */
-    /* #contact-right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    } */
-    /* #contact-left button {
-      
-        margin: 15px auto;
-        width: 150px;
-        border: 0.2px solid gray;
-        border-radius: 4px;
-        box-shadow: 5px 5px 5px grey;
-    } */
-    /* #contact-left a {
-        text-decoration: none;
-        color: grey;
-        font-size: 1.2em;
-        font-family: 'Mukta', sans-serif;
-    } */
-    /* #contact-right>ul span {
-        color: gray;
-        width: 100%;
-        font-size: 0.9rem;
-    } */
     
     #root>div>div>div>header>div>span,
-    /* #contact-left>h2,
-    #contact-right>h2,
-    #contact-left>button>a, */
-    
     #root>div>div>div>footer>div>div,
     #root>div>div>div>div.mdl-layout__drawer.is-visible>span,
     #root>div>div>div>footer>div>ul>li>a {
@@ -505,25 +464,44 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         color: rgba(15, 26, 32, 1);
     }
     
-    #arrow-down {
-        font-size: 1.5em;
-        display: flex;
-        align-items: center;
-        margin-left: 40%;
-        color: blue;
+    .expand-arrow {
+        padding: 15px;
+        margin: 15px;
+        margin-left: 70px;
+        color: white;
+        border: 1px solid white
     }
     
-    #arrow-down:hover {
-        border-radius: 7px;
+    .expand-arrow:hover {
         border: 0.1px solid lightgray;
         box-shadow: 5px 5px 5px grey;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        padding-left: 5px;
-        padding-right: 5px;
+        background-color: white;
+        color: black;
     }
     
-    .company-details,
+    .skills {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        margin: auto;
+        height: 400px;
+    }
+    
+    #certificates>div>ul>li>span,
+    #languages>div>ul>li {
+        padding: 5px;
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        color: hsla(31, 12%, 63%, 1);
+    }
+    
+    #certificates>div>ul>li {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        color: hsla(31, 12%, 63%, 1);
+        margin-left: 10px;
+    }
+    /* .company-details,
     .education-detail {
         display: flex;
         align-items: flex-start;
@@ -540,8 +518,8 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         font-weight: bold;
         padding: 0px;
     }
-    
-    .card li {
+     */
+    /* .card li {
         color: black;
         padding-top: 5px;
         display: flex;
@@ -557,20 +535,19 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     
     .card ul {
         padding: 10px;
-    }
-    
-    #school-logo,
+    } */
+    /* #school-logo,
     #job-logo {
         width: 8%;
         padding: 20px;
-        /* margin-top: 15px; */
+        margin-top: 15px;
         margin-right: 1px;
         float: left;
     }
     
     .card img {
         width: 20%;
-    }
+    } */
     
     #header-education {
         display: flex;
@@ -578,59 +555,19 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         justify-content: center;
         margin-bottom: 15px;
         flex-direction: column;
-        margin-top: 15px;
+    }
+    
+    #header-education>img {
+        width: 10%;
     }
     
     #work-img {
-        width: 50%;
+        width: 30%;
         margin: auto;
         display: grid;
         padding-bottom: 20px;
+        border-radius: 10px;
     }
-    /* #name,
-    #message,
-    #email {
-        padding: 0.7em;
-        color: grey;
-        width: 200px;
-    } */
-    /* label,
-    input {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        font-size: 0.8em;
-        font-weight: bold;
-        margin: auto;
-    } */
-    
-    .card h2 {
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Pacifico', cursive;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    /* #form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
-    /*     
-    #form>input[type=submit]:nth-child(10) {
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Pacifico', cursive;
-        color: gray;
-        margin: 15px auto;
-        width: 150px;
-        border: 0.2px solid gray;
-        border-radius: 4px;
-        box-shadow: 5px 5px 5px grey;
-    } */
-    /* navigation bar   */
     
     .header-color {
         background: rgba(15, 26, 32, 1);

@@ -2,13 +2,16 @@ import React from 'react';
 
 class CardContent extends React.Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
-    render(){
+    render() {
         return (
-            <p id="text">{this.props.text}</p>
+            <div className="content">
+                <p id="text">{this.props.text}</p>
+            </div>
+
         )
     }
 }

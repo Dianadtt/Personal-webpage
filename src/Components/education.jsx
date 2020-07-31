@@ -14,55 +14,61 @@ class Education extends Component {
             <div>
                 <div className="education">
                     <div id="header-education" className="banner-text">
-                        <img src={education} alt="education" />
-                        <h4>Education</h4>
-                    </div>    
-                        {data.map(school => {
+                        {/* <img src={education} alt="education" /> */}
+                        <h2>Education</h2>
+                    </div>
+                    {data.map(school => {
                         return (
                             <Card key={school.id} zoomOnHover={true}>
-                                <CardHeader 
-                                    logo={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`}
-                                    logoAlt="school"
+                                <CardHeader
+                                    // logo={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`}
+                                    // logoAlt="school"
                                     title={school.university}
                                     period={school.period}
                                     location={school.location}
                                     additional={school.title}
-                                    />
-                                <CardContent text={school.description}/>
+                                />
+                                <CardContent text={school.description} />
                             </Card>
                         )
                     })}
                 </div>
+                <div className="skills" id="skills">
 
-
-                <div id="header-education" className="banner-text">
-                    <img src={certificate} alt="certificate" />
-                    <h4>Licenses & Certifications</h4>
-                </div>
-                <div className="banner-text">
-                    <ul>
-                        <li><span>Aug 2020</span>Front-end Developer</li><hr></hr>
-                        <li><span>May 2019</span>Comunication training</li><hr></hr>
-                        <li><span>March 2013</span>Procurement specialist</li><hr></hr>
-                        <li><span>Oct 2012</span>Driving license</li><hr></hr>
-                        <li><span>June 2012</span>Masters degree in Infrastructure Engineering</li><hr></hr>
-                        <li><span>June 2010</span>Licence in Civil Engineering</li><hr></hr>
-                        <li><span>June 2006</span>Computer science ceritificate</li><hr></hr>
-                        <li><span>June 2006</span>Bachelor degree</li>
-                    </ul>
-                </div>
-
-
-                <div id="header-education" className="banner-text">
-                    <img src={language} alt="language" />
-                    <h4>Languages</h4>
+                <div className="banner-text"id="certificates">
+                    <div id="header-education" >
+                        {/* <img src={certificate} alt="certificate" /> */}
+                        <h2>Licenses & Certifications</h2>
+                    </div>
                     <div >
-                    <ul>
-                        <li>Romanian</li>
-                        <li>Hungarian</li>
-                        <li>English</li>
-                    </ul>
+                        <ul>
+                            <li><span>Aug 2020</span>Front-end Developer</li>
+                            <li><span>May 2019</span>Comunication training</li>
+                            <li><span>March 2013</span>Procurement specialist</li>
+                            <li><span>Oct 2012</span>Driving license</li>
+                            <li><span>June 2012</span>Masters degree in Infrastructure Engineering</li>
+                            <li><span>June 2010</span>Licence in Civil Engineering</li>
+                            <li><span>June 2006</span>Computer science ceritificate</li>
+                            <li><span>June 2006</span>Bachelor degree</li>
+                        </ul>
+                    </div>
                 </div>
+
+
+
+
+                <div id="languages"  className="banner-text">
+                    {/* <img src={language} alt="language" /> */}
+                    <h2 >Languages</h2>
+                    <div  >
+                        <ul>
+                            <li>Romanian</li>
+                            <li>Hungarian</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+
                 </div>
                
 

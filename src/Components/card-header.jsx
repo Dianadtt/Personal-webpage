@@ -10,7 +10,7 @@ class CardHeader extends React.Component {
         const {logo, logoAlt, title, period, location, additional} = this.props;
 
         return (
-            <div>
+            <div className="header">
                 <div className="logo-container">
                     <img className="card-header-logo" src={logo} alt={logoAlt}></img>
                 </div>

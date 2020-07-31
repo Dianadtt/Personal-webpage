@@ -20,14 +20,14 @@ class Experience extends Component {
                         key={job.id} 
                         zoomOnHover={true}>
                                 <CardHeader 
-                                    logo={`${process.env.PUBLIC_URL}/staticAssets/${job.img}`}
-                                    logoAlt="job"
+                                    // logo={`${process.env.PUBLIC_URL}/staticAssets/${job.img}`}
+                                    // logoAlt="job"
                                     title={job.company}
                                     period={job.period}
                                     location={job.location}
                                 />
-                                <CardContent text={job.description}/>
-                                <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img>
+                                <CardContent text={job.shortDescription}/>
+                                {/* <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img> */}
                                 
                                 <CardExtraContent>
                                     <CardContent text={job.description}/>
