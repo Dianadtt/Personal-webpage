@@ -10,7 +10,7 @@ class Card extends React.Component {
         const {zoomOnHover}=this.props;
 
         return (
-            <div className={zoomOnHover ? "banner-text" : "card"}>
+            <div className={zoomOnHover ? "zoom-card" : "banner-text"}>
                 {this.props.children}
             </div>
         )
