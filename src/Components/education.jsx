@@ -13,7 +13,7 @@ class Education extends Component {
         return (
             <div>
                 <div className="education">
-                    <div id="header-education" className="card">
+                    <div id="header-education" className="banner-text">
                         <img src={education} alt="education" />
                         <h4>Education</h4>
                     </div>    
@@ -35,11 +35,11 @@ class Education extends Component {
                 </div>
 
 
-                <div id="header-education" className="card">
+                <div id="header-education" className="banner-text">
                     <img src={certificate} alt="certificate" />
                     <h4>Licenses & Certifications</h4>
                 </div>
-                <div className="card">
+                <div className="banner-text">
                     <ul>
                         <li><span>Aug 2020</span>Front-end Developer</li><hr></hr>
                         <li><span>May 2019</span>Comunication training</li><hr></hr>
@@ -53,17 +53,18 @@ class Education extends Component {
                 </div>
 
 
-                <div id="header-education" className="card">
+                <div id="header-education" className="banner-text">
                     <img src={language} alt="language" />
                     <h4>Languages</h4>
-                </div>
-                <div className="card">
+                    <div >
                     <ul>
                         <li>Romanian</li>
                         <li>Hungarian</li>
                         <li>English</li>
                     </ul>
                 </div>
+                </div>
+               
 
 
             </div>

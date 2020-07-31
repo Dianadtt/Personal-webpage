@@ -25,13 +25,13 @@ class Contact extends Component {
                         <List>
                             <ListItem >
                                 <ListItemContent>
-                                    <i className="fa fa-phone-square"></i>
+                                    <i id="icons"className="fa fa-phone-square"></i>
                                     0745 951 222
                                     </ListItemContent>
                             </ListItem>
                             <ListItem >
                                 <ListItemContent >
-                                    <i className="fa fa-envelope"></i>
+                                    <i id="icons"className="fa fa-envelope"></i>
                                      dianatoth.dtt@gmail.com
                                     </ListItemContent>
                             </ListItem>

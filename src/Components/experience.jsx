@@ -11,8 +11,8 @@ class Experience extends Component {
         return (
 
             <div className="experience">
-                <div className="card">
-                    <h4>Experience</h4>
+                <div className="banner-text">
+                    <h2>Experience</h2>
                 </div>
                 {data.map(job => {
                     return (

@@ -183,6 +183,12 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
             width: 100%;
             margin-top: 5%;
         }
+        .project-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 2%;
+        }
     }
     /* contact page start */
     
@@ -260,8 +266,22 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         background-color: rgba(173, 162, 150, 1);
     }
     
+    #contact-dimention>ul>li>span {
+        color: rgba(173, 162, 150, 1);
+        width: 20%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    #contact-dimention>ul>span>span>i {
+        width: 10px;
+    }
+    
     .zoom-card {
-        background-color: white;
+        background-color: rgba(15, 26, 32, 1);
+        box-shadow: 20px 10px 10px rgba(15, 26, 32, 1);
         color: black;
         opacity: .8;
         width: 70%;
@@ -269,7 +289,17 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         border-radius: 10px;
         box-shadow: 10px 10px 10px grey;
         z-index: 1;
+        opacity: 0.7;
+        border-radius: 10px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        border: 0.2px dotted rgba(244, 44, 4, 1);
         transition: width 0.5s, height 0.5s;
+    }
+    
+    .zoom-card:hover {
+        width: 90%;
     }
     
     .inputs {
@@ -286,10 +316,6 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     
     #message {
         height: 100px;
-    }
-    
-    .zoom-card:hover {
-        width: 72%;
     }
     
     .card {
@@ -375,10 +401,9 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
     }
     /* about-me section end */
     
-    #project-image {
-        width: 50%;
-        margin: auto;
-        display: grid;
+    #text {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
     }
     /* #contact-body {
         display: flex;
@@ -438,36 +463,46 @@ $gradient-radial: radial-gradient(#88a2aaff, #ada296ff, #e2856eff, #f42c04ff, #0
         color: hsla(31, 12%, 63%, 1)
     }
     
-    .links {
+    .project-container {
         display: flex;
-        width: 80%;
-        justify-content: space-evenly;
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: justify;
+        align-items: center;
+        margin-bottom: 2%;
+        width: 90%;
     }
     
-    .links a {
-        width: 20%;
+    #project-image {
+        width: 230px;
+        display: grid;
+        border-radius: 5px;
+    }
+    
+    #links {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        text-align: justify;
+        margin-bottom: 3%;
+    }
+    
+    #links a {
+        font-family: 'Mukta', sans-serif;
+        width: 100px;
         text-decoration: none;
         padding: 5px;
-        margin-bottom: 15px;
         margin-top: 15px;
-        color: black;
+        background-color: black;
+        color: hsla(31, 12%, 63%, 1);
         border: 0.1px solid lightgray;
         border-radius: 7px;
         text-align: center;
-        font-size: 0.5em;
+        font-size: 20px;
     }
     
-    .links a:hover {
+    #links a:hover {
         box-shadow: 5px 5px 5px grey;
-    }
-    
-    .links i {
-        padding-right: 5px;
-        color: blue;
+        background-color: rgba(244, 44, 4, 1);
+        color: rgba(15, 26, 32, 1);
     }
     
     #arrow-down {
