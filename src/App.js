@@ -16,7 +16,7 @@ function App() {
                 <Header className="header-color" title="Diana Toth" scroll >
                
 
-                    <Navigation>
+                    <Navigation className="header">
                         <Link to="/personal-webpage/landingpage">Home</Link>
                         <Link to="/personal-webpage/about-me">About Me</Link>
                         <Link to="/personal-webpage/experience">Experience</Link>
@@ -42,10 +42,10 @@ function App() {
                   
                 </Content>
                 <Footer className="header-color" size="mini">
-                    <FooterSection type="left" logo="@DianaToth">
+                    <FooterSection type="middle" logo="">
                         <FooterLinkList>
-                            <a href="/">Help</a>
-                            <a href="/contact">Privacy & Terms</a>
+                           
+                            <a href="/personal-webpage/contact">@DianaToth</a>
                         </FooterLinkList>
                     </FooterSection>
                 </Footer>

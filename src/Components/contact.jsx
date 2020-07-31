@@ -8,18 +8,20 @@ import Form from './form'
 class Contact extends Component {
     render() {
         return (
-            <>
-                <div className="card" id="contact-body">
+            <div >
+                <div className="contact-body" id="contact-body">
 
-                    <div id="contact-left">
+                    <div className="banner-text"id="contact-dimention">
                         <h2>Toth Diana</h2>
-                        <img src={img} alt="diana toth" />
-                        <button>
-                            <a href={cv} download>Click to Download</a>
+                        <img className="contact-image" src={img} alt="diana toth" />
+                        <button className="button ">
+                         
+                            <a href={cv} download> Download</a>
                         </button>
+
                     </div>
-                    <div id="contact-right">
-                        <h2>Contact Me</h2>
+                    <div className="banner-text"id="contact-dimention">
+                        <h2>Contact Me !</h2>
                         <List>
                             <ListItem >
                                 <ListItemContent>
@@ -34,12 +36,16 @@ class Contact extends Component {
                                     </ListItemContent>
                             </ListItem>
                         </List>
+
+
                     </div>
+
+                   
                 </div>
-                <div className="card">
-                    <Form></Form>
-                </div>
-            </>
+                <div className="banner-text" id="contact-dimention form">
+                        <Form></Form>
+                    </div>
+            </div>
         )
     }
 }

@@ -1,7 +1,7 @@
 [{
         "id": 1,
         "title": "My First Web Page",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": " This assignment was perform in the begging of the classes and the task was to create a static web page where I needed to implement a given design with linking between pages. In the project I used pure CSS and HTML code.",
         "linkForCode": "https://codesandbox.io/s/extrawork1dogs-g3ej7?fontsize=14&hidenavigation=1&theme=dark",
         "linkForProject": "https://g3ej7.csb.app/beagle.html",
         "img": "staticWebPage.png"
@@ -9,49 +9,41 @@
     {
         "id": 2,
         "title": "Layouting",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": "  After diving deeper into CSS, this assignment purpose was to create a proper layouting for a given design. Main focus was to display and positioning the elements.",
         "linkForCode": "https://codesandbox.io/embed/serene-violet-hy5xf?fontsize=14&hidenavigation=1&theme=dark",
         "linkForProject": "https://hy5xf.csb.app/",
         "img": "layoting.png"
     },
+
     {
         "id": 3,
-        "title": "Putting things on top of eachother",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
-        "linkForCode": "https://codesandbox.io/embed/eloquent-cherry-97d37?fontsize=14&hidenavigation=1&theme=dark",
-        "linkForProject": "https://97d37.csb.app/",
-        "img": "modal.png"
-
-    },
-    {
-        "id": 4,
         "title": "Diving into JavaScript",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": "First dynamic form created in JavaScript. This project covers functions, validation of inputs and if all fields are correctly filled it will display a modal box containing the name collected from the input.",
         "linkForCode": "https://github.com/Dianadtt/DOM-ManipulationHomework",
         "linkForProject": "https://dianadtt.github.io/DOM-ManipulationHomework/",
         "img": "forms.png"
     },
 
     {
-        "id": 5,
+        "id": 4,
         "title": "Game app",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": " Game app. This project was made in OOP style using a given API. From an array of JSON a list of games were rendered with the ability to delete, edit and update each elements from the list. Creating and adding a new element to JSON was also implemented. In this project fetch api (GET, POST, DELETE, PUT) and asynchronous functions were covered (async/await and  promises)",
         "linkForCode": "https://github.com/Dianadtt/GameApp-with-objects.git",
         "linkForProject": "https://dianadtt.github.io/GameApp-ES6-classes/index.html",
         "img": "gameApp.png"
     },
     {
-        "id": 6,
-        "title": "My first Game",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "id": 5,
+        "title": "Obstacles Game",
+        "description": " I this game the player has the ability to move inside the playground and at each time the player hits an obstacle loses 10 point from its life. At the point where his life will be equal to 0 the game will end (displaing a game over message) and the game will restart and randomly the obstacles will be rendered. ES6 syntax was covered in this game.",
         "linkForCode": "https://github.com/Dianadtt/Obstacles-Game.git",
         "linkForProject": "https://dianadtt.github.io/Obstacles-Game/",
         "img": "game.png"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Weather App",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
+        "description": "Displays buttons to click for daily and hourly weather forecast based on the geolocation of the user. After getting the geolocation position with the navigator, the API was called in order to retrieved the necessary data from it and displaying it.  ",
         "linkForCode": "https://github.com/Dianadtt/WeatherApp.git",
         "linkForProject": "https://dianadtt.github.io/WeatherApp/",
         "img": "weather.png"
@@ -63,14 +55,7 @@
         "linkForCode": "https://github.com/Dianadtt/GameApp-with-React.git",
         "linkForProject": "https://crinel.github.io/myIMDB-13.1/pages/home.html",
         "img": "myimdb.png"
-    },
-    {
-        "id": 9,
-        "title": "Game app with React",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versi",
-        "linkForCode": "https://github.com/Dianadtt/GameApp-with-React.git",
-        "linkForProject": "http://dianadtt.github.io/GameApp-with-React/",
-        "img": "weather.png"
     }
+
 
 ]
