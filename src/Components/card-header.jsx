@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../pages/card.css"
 class CardHeader extends React.Component {
 
     constructor (props){
@@ -10,7 +10,7 @@ class CardHeader extends React.Component {
         const {logo, logoAlt, title, period, location, additional} = this.props;
 
         return (
-            <div className="header">
+            <div className="card-header">
                 <div className="logo-container">
                     {/* <img className="card-header-logo" src={logo} alt={logoAlt}></img> */}
                 </div>

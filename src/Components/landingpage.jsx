@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-// import { Grid, Cell } from 'react-mdl';
 import img from '../assets/avatar.jpg';
 import Typical from 'react-typical'
 import RandomQuote from './randomQ'
+import "../pages/landing-page.css"
+
 class Landing extends Component {
     render() {
         return (
             <div className="landing-page">
-
-
-
+                <img className="avatar-img" src={img} alt="Diana Toth" />
                 <div className="banner-text">
-                    <img className="avatar-img" src={img} alt="Diana Toth" />
+
                     <h1>
                         I'm a {''}
                         <Typical
@@ -34,6 +33,14 @@ class Landing extends Component {
                     <hr />
                     <h1>HTML | CSS | JavaScript | React</h1>
                     <hr />
+                    <div className="about-me-links">
+                        <h1>A bit about me:</h1>
+                        <a href="/personal-webpage/projects">Projects</a>
+                        <a href="/personal-webpage/resume">Resume</a>
+                        <a href="/personal-webpage/contact">Contact</a>
+                    </div>
+
+
                     <div className="social-links ">
                         <a rel="noopener noreferrer" href="https://www.linkedin.com/in/diana-toth-825843111/" target="_blank">
                             <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -50,8 +57,8 @@ class Landing extends Component {
                         <a rel="noopener noreferrer" href="https://www.instagram.com/diana.toth/?hl=ro" target="_blank">
                             <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
-
                     </div>
+                    
                     <hr />
                     <RandomQuote />
                 </div>

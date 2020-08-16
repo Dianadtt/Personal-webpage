@@ -6,6 +6,7 @@ import language from '../assets/language.jpg';
 import Card from './card';
 import CardHeader from './card-header';
 import CardContent from './card-content';
+import "../pages/card.css"
 
 
 class Education extends Component {
@@ -19,7 +20,7 @@ class Education extends Component {
                     </div>
                     {data.map(school => {
                         return (
-                            <Card key={school.id} zoomOnHover={true}>
+                            <Card key={school.id} zoomOnHover={false}>
                                 <CardHeader
                                     // logo={`${process.env.PUBLIC_URL}/staticAssets/${school.img}`}
                                     // logoAlt="school"
@@ -33,9 +34,9 @@ class Education extends Component {
                         )
                     })}
                 </div>
-                <div className="skills" id="skills">
+                <div className="skills" >
 
-                <div className="banner-text"id="certificates">
+                <div id="certificates">
                     <div id="header-education" >
                         {/* <img src={certificate} alt="certificate" /> */}
                         <h2>Licenses & Certifications</h2>
@@ -57,9 +58,12 @@ class Education extends Component {
 
 
 
-                <div id="languages"  className="banner-text">
+                <div id="languages" >
                     {/* <img src={language} alt="language" /> */}
+                    <div id="header-education">
                     <h2 >Languages</h2>
+                    </div>
+                   
                     <div  >
                         <ul>
                             <li>Romanian</li>

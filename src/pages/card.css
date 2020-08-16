@@ -1,0 +1,126 @@
+    .experience,
+    .education {
+        width: 78%;
+        margin: auto;
+        margin-top: 7%;
+    }
+    
+    .skills {
+        width: 78%;
+        margin: auto;
+    }
+    
+    .experience-title h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        background-color: rgba(194, 9, 90, 1);
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+    }
+    
+    .card-header-detail h5 {
+        font-family: 'Mukta', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .card-header-detail p {
+        font-family: 'Mukta', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+    }
+    
+    #text {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .content {
+        align-self: flex-start;
+        width: 70%;
+    }
+    
+    .card-header-detail {
+        align-self: flex-start;
+        width: 70%;
+    }
+    
+    .zoom-card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border-bottom: 2px solid white;
+        margin-bottom: 10px;
+    }
+    
+    #work-img {
+        width: 250px;
+        height: 250px;
+        align-self: flex-end;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        border-radius: 5px;
+    }
+    
+    #header-education>h2 {
+        font-size: 20px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        background-color: rgba(120, 111, 82, 1);
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 2px white;
+    }
+    
+    .card-header {
+        width: 50%;
+    }
+    
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #languages {
+        display: flex;
+    }
+    
+    #certificates {
+        display: flex;
+    }
+    
+    #certificates li span {
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    #certificates li {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        list-style-type: none;
+    }
+    
+    #languages li {
+        font-family: 'Mukta', sans-serif;
+        font-size: 20px;
+        list-style-type: none;
+    }

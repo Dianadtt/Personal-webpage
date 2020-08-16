@@ -1,4 +1,5 @@
 import React from 'react';
+import "../pages/card.css"
 
 class CardExtraContent extends React.Component {
 
@@ -22,7 +23,7 @@ class CardExtraContent extends React.Component {
 
     render(){
         return (
-            <div>
+            <div >
                 <i className="expand-arrow fa fa-angle-down" 
                 onMouseOver={this.handleShow} 
                 onMouseLeave={this.handleHide} 

@@ -1,4 +1,5 @@
 import React from 'react';
+import "../pages/card.css"
 
 class CardContent extends React.Component {
 
