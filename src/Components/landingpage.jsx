@@ -35,9 +35,9 @@ class Landing extends Component {
                     <hr />
                     <div className="about-me-links">
                         <h1>A bit about me:</h1>
-                        <a href="/personal-webpage/projects">Projects</a>
-                        <a href="/personal-webpage/resume">Resume</a>
-                        <a href="/personal-webpage/contact">Contact</a>
+                        <a href="/personal-webpage/projects"><span>Projects</span></a>
+                        <a href="/personal-webpage/resume"><span>Resume</span></a>
+                        <a href="/personal-webpage/contact"><span>Contact</span></a>
                     </div>
 
 

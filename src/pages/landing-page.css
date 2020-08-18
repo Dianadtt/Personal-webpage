@@ -10,10 +10,15 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 10%;
+    background-image: url("../assets/backpic.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .avatar-img {
-    width: 30%;
+    width: 250px;
+    height: 250px;
     border-radius: 60%;
     padding-right: 10px;
 }
@@ -25,6 +30,7 @@
     font-size: 35px;
     font-weight: normal;
     font-style: normal;
+    padding: 5px;
 }
 
 #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1)>b {
@@ -36,6 +42,8 @@
     font-size: 25px;
     font-family: 'Mukta', sans-serif;
     font-weight: bold;
+    color: white;
+    padding: 5px;
 }
 
 .banner-text hr {
@@ -78,16 +86,69 @@
     background-color: rgba(9, 4, 70, 1);
 }
 
+#root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(3) {
+    text-align: end;
+    color: black;
+    padding: 5px;
+}
+
+#root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1) {
+    color: black;
+}
+
 #text>p {
     margin: auto;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
+    width: 80%;
 }
 
 #author>p {
     font-size: 20px;
     font-family: 'Mukta', sans-serif;
     text-align: end;
+    color: white;
+    padding: 5px;
+}
+
+
+/* .banner-text {
+    margin-left: 10%;
+} */
+
+.about-me-links>a>span {
+    position: relative;
+    top: 40px;
+}
+
+.about-me-links>h1 {
+    position: relative;
+    top: 18px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:1000px) {
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(3) {
+        color: white;
+        font-size: 20px;
+    }
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1) {
+        color: white;
+    }
+    .banner-text {
+        margin: auto;
+    }
+    .avatar-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1)>b,
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1) {
+        font-size: 22px;
+    }
 }

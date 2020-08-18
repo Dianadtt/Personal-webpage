@@ -1,126 +1,298 @@
-    .experience,
-    .education {
-        width: 78%;
-        margin: auto;
-        margin-top: 7%;
-    }
-    
-    .skills {
-        width: 78%;
-        margin: auto;
-    }
-    
-    .experience-title h2 {
-        font-size: 20px;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Pacifico', cursive;
-        background-color: rgba(194, 9, 90, 1);
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        text-align: center;
-        color: white;
-    }
-    
-    .card-header-detail h5 {
-        font-family: 'Mukta', sans-serif;
-        font-size: 25px;
-        font-weight: bold;
-        color: black;
-    }
-    
-    .card-header-detail p {
-        font-family: 'Mukta', sans-serif;
-        font-size: 18px;
-        font-weight: bold;
-        color: black;
-    }
-    
-    #text {
-        font-family: 'Mukta', sans-serif;
-        font-size: 20px;
-        color: black;
-    }
-    
-    .content {
-        align-self: flex-start;
-        width: 70%;
-    }
-    
-    .card-header-detail {
-        align-self: flex-start;
-        width: 70%;
-    }
-    
+.experience {
+    width: 78%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.skills,
+.education {
+    width: 78%;
+    margin: auto;
+}
+
+.experience-title h2 {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Pacifico', cursive;
+    background-color: rgba(194, 9, 90, 1);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+.card-header-detail h5 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.card-header-detail p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+#text {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.content {
+    align-self: flex-start;
+    width: 70%;
+}
+
+.card-header-detail {
+    align-self: flex-start;
+    width: 70%;
+}
+
+.zoom-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-bottom: 2px solid white;
+    /* margin-bottom: 10px; */
+}
+
+#work-img {
+    width: 220px;
+    height: 220px;
+    align-self: flex-end;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#header-education {
+    background-color: rgba(120, 111, 82, 1);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+
+#header-education>h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 2px white;
+}
+
+.card-header {
+    width: 50%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 87%;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+#languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    width: 30%;
+}
+
+#certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+#technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+#technologies ul {
+    padding-left: 0px;
+}
+
+#technologies li {
+    list-style-type: none;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#certificates li span {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+#certificates li {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+#languages li {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:1000px) {
     .zoom-card {
+        color: red;
         display: flex;
         flex-direction: column;
-        position: relative;
-        border-bottom: 2px solid white;
-        margin-bottom: 10px;
     }
-    
+    .content {
+        width: 100%;
+    }
+    .card-header-detail {
+        width: 100%;
+        height: 150px;
+    }
+    .card-header-detail h5 {
+        font-size: 17px;
+    }
+    .card-header-detail p {
+        font-size: 12px;
+    }
     #work-img {
-        width: 250px;
-        height: 250px;
-        align-self: flex-end;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        border-radius: 5px;
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20%;
     }
-    
-    #header-education>h2 {
-        font-size: 20px;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Mukta', sans-serif;
-        font-family: 'Pacifico', cursive;
-        background-color: rgba(120, 111, 82, 1);
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        text-align: center;
-        color: white;
+    .experience-title h2,
+    #header-education {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        font-size: 10px;
     }
-    
+    #header-education h2 {
+        font-size: 10px;
+        padding: 0px;
+        margin: 0px;
+    }
     .card {
         display: flex;
-        flex-direction: row;
-        border-bottom: solid 2px white;
+        flex-direction: column;
     }
-    
-    .card-header {
-        width: 50%;
+    #root>div>div>div>div.mdl-layout__content>div>div:nth-child(2)>div.education>div:nth-child(2)>div.card-header>div.card-header-detail>h5,
+    #root>div>div>div>div.mdl-layout__content>div>div:nth-child(2)>div.education>div:nth-child(3)>div.card-header>div.card-header-detail>h5,
+    #root>div>div>div>div.mdl-layout__content>div>div:nth-child(2)>div.education>div:nth-child(4)>div.card-header>div.card-header-detail>h5,
+    #root>div>div>div>div.mdl-layout__content>div>div:nth-child(2)>div.education>div:nth-child(5)>div.card-header>div.card-header-detail>h5 {
+        width: 300px;
     }
-    
+    .card-header-detail p {
+        margin: 0px;
+    }
+    #certificates>div:nth-child(2)>ul>li {
+        width: 200px;
+        margin-left: 30px;
+    }
     .skills {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        margin-left: 15%;
     }
-    
-    #languages {
-        display: flex;
+}
+
+
+/* $midnight-blue: rgba(9, 4, 70, 1);
+    $gold-fusion: rgba(120, 111, 82, 1);
+    $yellow-orange: rgba(254, 185, 95, 1);
+    $imperial-red: rgba(247, 23, 53, 1);
+    $rose-red: rgba(194, 9, 90, 1); */
+
+.html {
+    background: blueviolet;
+    animation: htmlmove 5s infinite;
+}
+
+@keyframes htmlmove {
+    from {
+        width: 100px;
     }
-    
-    #certificates {
-        display: flex;
+    to {
+        width: 300px;
     }
-    
-    #certificates li span {
-        font-weight: bold;
-        padding-right: 5px;
+}
+
+.css {
+    background: red;
+    animation: cssmove 5s infinite;
+}
+
+@keyframes cssmove {
+    from {
+        width: 100px;
     }
-    
-    #certificates li {
-        font-family: 'Mukta', sans-serif;
-        font-size: 20px;
-        list-style-type: none;
+    to {
+        width: 280px;
     }
-    
-    #languages li {
-        font-family: 'Mukta', sans-serif;
-        font-size: 20px;
-        list-style-type: none;
+}
+
+.javascript {
+    background: yellow;
+    animation: javamove 5s infinite;
+}
+
+@keyframes javamove {
+    from {
+        width: 100px;
     }
+    to {
+        width: 220px;
+    }
+}
+
+.react {
+    background: green;
+    animation: reactmove 5s infinite;
+}
+
+@keyframes reactmove {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 180px;
+    }
+}
+
+.git {
+    background: orangered;
+    animation: gitmove 5s infinite;
+}
+
+@keyframes gitmove {
+    from {
+        width: 100px;
+    }
+    to {
+        width: 150px;
+    }
+}

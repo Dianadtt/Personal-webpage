@@ -52,7 +52,7 @@ function App() {
                             <a href="/personal-webpage/contact">@DianaToth</a>
 
                             <div className="social-links ">
-                                <p>Folow Me:</p>
+                                <p>Folow me:</p>
                                 <a rel="noopener noreferrer" href="https://www.linkedin.com/in/diana-toth-825843111/" target="_blank">
                                     <i className="fa fa-linkedin" aria-hidden="true"></i>
                                 </a>
