@@ -14,7 +14,6 @@
         "linkForProject": "https://hy5xf.csb.app/",
         "img": "layoting.png"
     },
-
     {
         "id": 3,
         "title": "Diving into JavaScript",
@@ -23,7 +22,6 @@
         "linkForProject": "https://dianadtt.github.io/DOM-ManipulationHomework/",
         "img": "forms.png"
     },
-
     {
         "id": 4,
         "title": "Game app",
@@ -56,6 +54,4 @@
         "linkForProject": "https://crinel.github.io/myIMDB-13.1/pages/home.html",
         "img": "myimdb.png"
     }
-
-
 ]

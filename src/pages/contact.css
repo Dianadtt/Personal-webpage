@@ -1,0 +1,168 @@
+    .contact-body {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contact-head {
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+    }
+    
+    .button a {
+        color: rgba(254, 185, 95, 1);
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-size: 16px;
+    }
+    
+    .button {
+        color: rgba(254, 185, 95, 1);
+        background-color: rgba(9, 4, 70, 1);
+        width: 150px;
+        border-radius: 7px;
+        margin: 0 auto;
+        margin-top: 10px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .button:hover {
+        background-color: rgba(194, 9, 90, 1);
+        color: rgba(9, 4, 70, 1);
+    }
+    
+    .button a:hover {
+        color: rgba(9, 4, 70, 1);
+    }
+    
+    .fa {
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: rgba(9, 4, 70, 1);
+    }
+    
+    .fa:hover {
+        color: rgba(194, 9, 90, 1);
+    }
+    
+    .contact-list {
+        margin: 0 auto;
+        width: 300px;
+        padding: 0px;
+    }
+    
+    .contact-list h2,
+    #form h2 {
+        margin-top: 90px;
+        color: rgba(9, 4, 70, 1);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+    }
+    
+    .contact-image {
+        width: 300px;
+        border-radius: 50%
+    }
+    
+    .contact-list>ul>li>span {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .modal-succes {
+        width: 100%;
+        font-size: 20px;
+        color: rgba(173, 162, 150, 1);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        padding: 10px;
+    }
+    
+    .modal-error {
+        width: 100%;
+        font-size: 20px;
+        color: rgba(244, 44, 4, 1);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Mukta', sans-serif;
+        font-family: 'Pacifico', cursive;
+        padding: 10px;
+    }
+    
+    #form {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        color: rgba(9, 4, 70, 1);
+        font-family: 'Mukta', sans-serif;
+        width: 300px;
+    }
+    
+    #name {
+        height: 20px;
+        width: 245px;
+        background-color: rgba(254, 185, 95, 1);
+        border: 1px solid rgba(9, 4, 70, 1);
+    }
+    
+    #message {
+        height: 120px;
+        width: 290px;
+        background-color: rgba(254, 185, 95, 1);
+        border: 1px solid rgba(9, 4, 70, 1);
+    }
+    
+    #email {
+        height: 20px;
+        width: 250px;
+        background-color: rgba(254, 185, 95, 1);
+        border: 1px solid rgba(9, 4, 70, 1);
+    }
+    
+    @media only screen and (max-width:800px) {
+        #name {
+            height: 20px;
+            width: 250px;
+        }
+        #message {
+            height: 100px;
+            width: 290px;
+        }
+        #email {
+            height: 20px;
+            width: 250px;
+        }
+        .contact-head {
+            margin: 5px auto;
+        }
+        .contact-image {
+            width: 150px;
+        }
+        .contact-list h2,
+        #form h2 {
+            font-size: 20px;
+            margin-top: 0px;
+            margin: 0 auto;
+        }
+        .contact-list h2 {
+            width: 50%;
+        }
+        .contact-body {
+            width: 78%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }

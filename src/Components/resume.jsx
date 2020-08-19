@@ -5,17 +5,14 @@ import Skills from "./skills"
 import "../pages/card.css"
 
 class Resume extends Component {
-    render() { 
-    return(
-           <div>
-               <Experience></Experience>
-               <Education></Education>
-               <Skills></Skills>
-           </div>
-          
-          
-
+    render() {
+        return (
+            <div>
+                <Experience></Experience>
+                <Education></Education>
+                <Skills></Skills>
+            </div>
         )
-}
+    }
 }
 export default Resume

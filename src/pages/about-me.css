@@ -11,18 +11,23 @@
 .about-me {
     width: 49.5%;
     margin-top: 50px;
-    padding: 0.18%;
 }
 
-#text {
+#description {
     margin-top: 16px;
     font-family: 'Mukta', sans-serif;
     text-align: justify;
     color: black;
+    width: 100%;
+    font-size: 15px;
 }
 
 @media only screen and (max-width:600px) {
-    #text {
+    #description {
+        font-family: 'Mukta', sans-serif;
         font-size: 12px;
+        width: 100%;
+        text-align: justify;
+        padding: 0px;
     }
 }

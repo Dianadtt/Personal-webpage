@@ -25,10 +25,8 @@ class Landing extends Component {
                                 1000,
                                 'Team Player',
                                 1000,
-
                             ]}
                         />
-
                     </h1>
                     <hr />
                     <h1>HTML | CSS | JavaScript | React</h1>
@@ -39,8 +37,6 @@ class Landing extends Component {
                         <a href="/personal-webpage/resume"><span>Resume</span></a>
                         <a href="/personal-webpage/contact"><span>Contact</span></a>
                     </div>
-
-
                     <div className="social-links ">
                         <a rel="noopener noreferrer" href="https://www.linkedin.com/in/diana-toth-825843111/" target="_blank">
                             <i className="fa fa-linkedin" aria-hidden="true"></i>
@@ -57,12 +53,10 @@ class Landing extends Component {
                         <a rel="noopener noreferrer" href="https://www.instagram.com/diana.toth/?hl=ro" target="_blank">
                             <i className="fa fa-instagram" aria-hidden="true"></i>
                         </a>
-                    </div>
-                    
+                    </div>                   
                     <hr />
                     <RandomQuote />
                 </div>
-
             </div>
         )
     }

@@ -1,14 +1,12 @@
 import React from 'react';
 import "../pages/card.css"
-class CardHeader extends React.Component {
 
+class CardHeader extends React.Component {
     constructor (props){
         super(props);
     }
-
     render(){
         const {logo, logoAlt, title, period, location, additional} = this.props;
-
         return (
             <div className="card-header">
                 <div className="logo-container">

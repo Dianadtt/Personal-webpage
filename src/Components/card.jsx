@@ -5,10 +5,8 @@ class Card extends React.Component {
     constructor(props){
         super(props);
     }
-
     render(){
         const {zoomOnHover}=this.props;
-
         return (
             <div className={zoomOnHover ? "zoom-card" :"card"}>
                 {this.props.children}
@@ -16,5 +14,4 @@ class Card extends React.Component {
         )
     }
 }
-
 export default Card;

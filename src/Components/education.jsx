@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import data from "../education.json"
-import education from '../assets/education.jpg';
-import certificate from '../assets/certificate.jpg';
-import language from '../assets/language.jpg';
+// import education from '../assets/education.jpg';
+// import certificate from '../assets/certificate.jpg';
+// import language from '../assets/language.jpg';
 import Card from './card';
 import CardHeader from './card-header';
 import CardContent from './card-content';
 import "../pages/card.css"
-
 
 class Education extends Component {
     render() {
@@ -35,7 +34,7 @@ class Education extends Component {
                     })}
                 </div>
 
-               
+
 
 
 

@@ -9,7 +9,6 @@ class Experience extends Component {
 
     render() {
         return (
-
             <div className="experience">
                 <div className="experience-title">
                     <h2>Experience</h2>
@@ -28,18 +27,12 @@ class Experience extends Component {
                             />
                             <CardContent text={job.shortDescription} />
                             <img id="work-img" src={`${process.env.PUBLIC_URL}/staticAssets/${job.workImg}`} alt="work"></img>
-
                             <CardExtraContent>
                                 <CardContent text={job.description} />
                             </CardExtraContent>
-                        
-
                         </Card>
-                        
                     )
                 })}
-
-
             </div>
         )
     }

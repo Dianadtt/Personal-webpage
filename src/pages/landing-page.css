@@ -1,9 +1,3 @@
-/* $midnight-blue: rgba(9, 4, 70, 1);
-    $gold-fusion: rgba(120, 111, 82, 1);
-    $yellow-orange: rgba(254, 185, 95, 1);
-    $imperial-red: rgba(247, 23, 53, 1);
-    $rose-red: rgba(194, 9, 90, 1); */
-
 .landing-page {
     margin: 0 auto;
     width: 80%;
@@ -113,11 +107,6 @@
     padding: 5px;
 }
 
-
-/* .banner-text {
-    margin-left: 10%;
-} */
-
 .about-me-links>a>span {
     position: relative;
     top: 40px;
@@ -150,5 +139,16 @@
     #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1)>b,
     #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1) {
         font-size: 22px;
+    }
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(3) {
+        color: black;
+        font-size: 18px;
+    }
+    #root>div>div>div>div.mdl-layout__content>div>div>h1:nth-child(1) {
+        color: black;
+    }
+    .avatar-img {
+        width: 100px;
+        height: 100px;
     }
 }

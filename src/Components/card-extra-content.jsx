@@ -9,7 +9,6 @@ class CardExtraContent extends React.Component {
             isActive: false,
         }
     }
-
     handleShow = () => {
         this.setState({
             isActive: true,
@@ -20,7 +19,6 @@ class CardExtraContent extends React.Component {
             isActive: false,            
         });
     }
-
     render(){
         return (
             <div >

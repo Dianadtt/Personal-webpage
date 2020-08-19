@@ -6,8 +6,7 @@ class Skills extends Component {
         return (
             <div className="skills" >
                 <div id="certificates">
-                    <div id="header-education" >
-                        {/* <img src={certificate} alt="certificate" /> */}
+                    <div id="header-skills" >
                         <h2>Certifications</h2>
                     </div>
                     <div >
@@ -23,13 +22,11 @@ class Skills extends Component {
                         </ul>
                     </div>
                 </div>
-                <div id="languages" >
-                    {/* <img src={language} alt="language" /> */}
-                    <div id="header-education">
+                <div id="languages">
+                    <div id="header-skills">
                         <h2 >Languages</h2>
                     </div>
-
-                    <div  >
+                    <div>
                         <ul>
                             <li>Romanian</li>
                             <li>Hungarian</li>
@@ -38,10 +35,9 @@ class Skills extends Component {
                     </div>
                 </div>
                 <div id="technologies" >
-                    <div id="header-education">
+                    <div id="header-skills">
                         <h2 >Technologies</h2>
                     </div>
-
                     <div>
                         <ul>
                             <li className="css">CSS 70%</li>

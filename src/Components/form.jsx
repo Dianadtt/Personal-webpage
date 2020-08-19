@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import * as emailjs from "emailjs-com";
+import "../pages/contact.css"
 
 class Form extends Component {
     constructor(props) {
@@ -12,7 +13,6 @@ class Form extends Component {
                 email: ""
             },
             submit: false,
-            
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -33,7 +33,6 @@ class Form extends Component {
         })
     }
     handleChange = (e) => {
-       
         this.setState({ [e.target.name]: e.target.value });
     };
     handleSubmit = (e) => {
@@ -64,11 +63,9 @@ class Form extends Component {
 
                     })
                 })
-           
         } else {
             console.log("invalid")
             this.setState({
-
                 valid: false
             })
         }
@@ -131,7 +128,7 @@ class Form extends Component {
                             required
                         ></input>
                     </div>
-                    <input className="button " type="submit"
+                    <input className="button" type="submit"
                     ></input>
                 </form>
                 {modal && (<div>{modal}</div>)}
