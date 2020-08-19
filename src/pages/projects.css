@@ -11,10 +11,11 @@
 
 .banner-text h2 {
     font-size: 25px;
+    font-family: 'Dancing Script', cursive;
     font-family: 'Mukta', sans-serif;
-    font-weight: bold;
+    font-family: 'Pacifico', cursive;
     margin-left: 20px;
-    color: rgba(247, 23, 53, 1);
+    color: black;
 }
 
 .bullet {
@@ -27,7 +28,6 @@
     font-weight: bold;
     background-color: rgba(247, 23, 53, 1);
     color: rgba(254, 185, 95, 1);
-    ;
 }
 
 .project-header {
